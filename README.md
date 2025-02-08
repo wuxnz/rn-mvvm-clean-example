@@ -3,16 +3,28 @@
 ## Overview
 This is a **React Native** example application implementing **MVVM (Model-View-ViewModel) with CLEAN Architecture**. The app is a simple **To-Do List** built using **Expo** and **Zustand** for state management.
 
+---
+
 ## Features
-- Add tasks.
+- View Tasks that are in [db.ts](src/features/tasks/data/db.ts).
 - Persist tasks using local storage.
 - Structured using **MVVM + CLEAN Architecture** principles.
 - Uses **Zustand** for state management.
+
+---
 
 ## Tech Stack
 - **React Native (Expo)**
 - **TypeScript**
 - **Zustand** (For state management)
+
+---
+
+## Screenshots
+
+| Task List |
+|-----------|
+| <img src="screenshots/TodoList.png" width="300" /> |
 
 ## Project Structure
 ```
@@ -35,6 +47,8 @@ tasks/
 └── TasksNavigator.tsx  # Navigation setup
 ```
 
+---
+
 ## Installation & Running the Project
 1. Clone the repository:
    ```sh
@@ -49,6 +63,8 @@ tasks/
    ```sh
    npm start
    ```
+
+---
 
 ## State Management with Zustand
 Zustand is used to manage the global state for tasks. The store is defined within the **viewmodels** folder and follows MVVM principles.
@@ -81,6 +97,8 @@ const useTaskStore = create<TaskStore>((set) => ({
 
 export default useTaskStore;
 ```
+
+---
 
 ## Contribution
 Feel free to contribute by opening issues and submitting pull requests!
