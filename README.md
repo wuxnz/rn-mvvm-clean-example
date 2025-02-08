@@ -38,8 +38,8 @@ tasks/
 ## Installation & Running the Project
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/todo-app.git
-   cd todo-app
+   git clone https://github.com/wuxnz/rn-mvvm-clean-example.git
+   cd rn-mvvm-clean-example
    ```
 2. Install dependencies:
    ```sh
